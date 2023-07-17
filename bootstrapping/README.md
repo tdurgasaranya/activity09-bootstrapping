@@ -54,9 +54,18 @@ we will know the truth about the population from which we are drawing
 data and can compare how bootstrapping and the traditional methods
 compare (and are different).
 
+Note that in practice, you will likely never know the population. Or, if
+you have the population information, there is no need to do any
+inference (again, you already know the population). Therefore, in
+practice for doing bootstrapping, you would simply start with something
+like Task 5 of this activity.
+
 - Create a new R code chunk and type the following code:
 
   ``` r
+  # Set a random seed value so we can obtain the same "random" results
+  set.seed(2023)
+
   # Create a data frame/tibble named sim_dat
   sim_dat <- tibble(
   # Explain what next line is doing
@@ -239,10 +248,10 @@ Answer the following question:
 
 Adding to your previous code chunk, add the following:
 
-- A pair of red lines that correspond to the traditional method’s 95%
-  confidence intervals
-- A single green line that corresponds to the population slope value
-  (there should be a unique green line in each plot)
+- A pair of vertical orange lines that correspond to the traditional
+  method’s 95% confidence intervals
+- A single vertical blue line that corresponds to the population slope
+  value (there should be a unique blue line in each plot)
 
 Once you can verify these “simpler” asks, dress your plot up. Use colors
 that speak to you. Use themes that speak to you. Make this plot yours!

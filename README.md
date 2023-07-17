@@ -2,17 +2,13 @@ Activity 09 - Bootstrapping
 ================
 
 This activity is intended to be completed in one week - outside of class
-preparation work and one 75-minute class meetings. On our Blackboard
-course site you were provided with items to read, watch, and do prior to
-attempting this activity. Do not proceed in this activity until you have
-minimally:
+preparation work and one class meetings. On our Blackboard course site
+you were provided with items to read, watch, and do prior to attempting
+this activity. Do not proceed in this activity until you have minimally:
 
-1.  (Day 1 portion) This was your mini-competition 2 presentations and
-    project work day.
-2.  (Day 2 portion) Read *ISL* [Section
-    5.2](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf). Note that
-    for some reason I can no longer find links directly to each chapter.
-    The previous link will take you to an online full text pdf from the
+1.  Read *ISL* [Section
+    5.2](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf). The
+    previous link will take you to an online full text pdf from the
     author’s site. Use the table of contents to quickly navigate the
     file.
 
@@ -24,8 +20,8 @@ In this repository/directory, you should see five items:
 - `.gitignore` - a file that is used to specify what Git can ignore when
   pushing to GitHub. You do not need to do anything with this.
 - `README.md` - the document you are currently reading.
-- `day02-bootstrapping` - a folder that contains items for you to
-  complete during the second 75-minute class meeting.
+- `bootstrapping` - a folder that contains items for you to complete
+  during the class meeting.
 
 Now, you will make your own copy of this repository.
 
@@ -109,10 +105,10 @@ forking process.
 Read these directions first, then work through them.
 
 1.  In your `activity09-bootstrapping` repo folder/directory, locate and
-    click into the `day02-bootstrapping` subfolder.
-2.  In the `day02-bootstrapping` subfolder, you will be greeted by a new
+    click into the `bootstrapping` subfolder.
+2.  In the `bootstrapping` subfolder, you will be greeted by a new
     `README.md` file. Do your best to complete the tasks/directions
-    provide in this subfolder by **11:59 pm (EST) on Tue, Mar 14**.
+    provide in this subfolder by **11:59 pm (EST) today**.
 3.  Ask questions in class as you are working. If you need to finish
     this up outside of our class meetings, remember that you can use our
     Teams workspace (linked on Blackboard), and post questions/issues in
